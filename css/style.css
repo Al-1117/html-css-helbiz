@@ -1,0 +1,102 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* END OF RESET */
+
+/* GENERAL RULES */
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+body ul li {
+  list-style: none;
+}
+body a {
+  color: inherit;
+  text-decoration: none;
+}
+/* END OF GENERAL RULES */
+
+/* HEADER SECTION*/
+
+/* Logo */
+header .logo {
+  height: 70px;
+  line-height: 70px;
+}
+/* End of Logo */
+
+/* Menu */
+.nav {
+  height: 70px;
+  line-height: 70px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+header .menu ul{
+  text-align:right;
+}
+header .menu ul li {
+  padding: 0 2%;
+}
+
+header .lang ul li{
+  padding: 0 2%;
+}
+
+header .container .lang ul li a {
+  border-left: 1px solid grey;
+  padding:  0% 40%;
+  text-align: right;
+}
+
+header .container .lang ul li a:first-child{
+  border: none;
+}
+
+  /*End of  Menu */
+
+/* Jumbotron */
+header .jumbotron {
+  position: relative;
+  height: 500px;
+  color: #ffffff;
+  background-image: url(../img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header .jumbotron .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+header .jumbotron .content > * {
+  padding-bottom: 3%;
+}
+
+header .jumbotron .content h1{
+  font-size: 3em;
+  margin: 0 15px;
+}
+
+header .jumbotron .content h5{
+  font-weight: 200;
+  font-size: 1.1em;
+}
+
+
+/* End of Jumbotron/ */
+
+/* END OF HEADER SECTION*/
