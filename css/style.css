@@ -1,9 +1,4 @@
 /* RESET */
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* END OF RESET */
 
@@ -21,7 +16,6 @@ body a {
 /* END OF GENERAL RULES */
 
 /* HEADER SECTION*/
-
 /* Logo */
 header .logo {
   height: 70px;
@@ -36,7 +30,6 @@ header .logo {
   color: black;
   text-transform: uppercase;
 }
-
 .nav ul li {
   display: inline-block;
 }
@@ -44,6 +37,7 @@ header .logo {
 header .menu ul{
   text-align:right;
 }
+
 header .menu ul li {
   padding: 0 2%;
 }
@@ -54,24 +48,25 @@ header .lang ul li{
 
 header .container .lang ul li a {
   border-left: 1px solid grey;
-  padding:  0% 40%;
+  padding-left: 20px;
   text-align: right;
 }
 
-header .container .lang ul li a:first-child{
+header .container .lang ul li:first-child a{
+  padding: 0;
   border: none;
 }
-
   /*End of  Menu */
 
 /* Jumbotron */
 header .jumbotron {
   position: relative;
-  height: 500px;
+  height: 600px;
   color: #ffffff;
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 3%;
 }
 
 header .jumbotron .content {
@@ -96,7 +91,250 @@ header .jumbotron .content h5{
   font-size: 1.1em;
 }
 
-
 /* End of Jumbotron/ */
-
 /* END OF HEADER SECTION*/
+
+/* MAIN SECTION */
+
+/* Service*/
+main #service .product{
+  background-color: white;
+  margin: 5% 0%;
+
+}
+
+main #service .product > * {
+  padding: 10px 0%;
+  text-align: center;
+  font-size: 25px;
+}
+
+main #service .product img {
+  width: 100%;
+}
+
+main #service .product .box-content {
+  margin: 0 3%;
+  background-color: #fafafa;
+}
+
+main #service .product span {
+  display: inline-block;
+  color: blue;
+  font-size: 20px;
+  width: 100%;
+}
+
+main #service .product h3 {
+  font-size: 40px;
+}
+
+/* End of Service */
+
+/* How*/
+main #how{
+  height: 700px;
+  background-image: url(../img/HelbizBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+}
+
+main #how .container{
+  height: 700px;
+}
+
+main #how .container > * {
+padding-top: 55%;
+}
+
+
+main #how .question h3{
+  width: 60%;
+  font-size: 2rem;
+}
+
+
+main #how .phone {
+  padding-top: 20%;
+}
+main #how .phone img{
+  padding-top: 0%;
+  width: 100%;
+}
+
+main #how .step {
+  font-size: 1.2rem;
+  padding-left: 10%;
+}
+
+/* End of How */
+
+/* Features */
+
+main #features [class*="col-lg-"] {
+height: 550px
+}
+
+main #features {
+  color: #ffffff;
+}
+
+main #features .smart-mobility {
+  background-image: url(../img/Scooterhelbiz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+main #features .big {
+  font-size: 1.5rem;
+  width: 25%;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+main #features .big p, span {
+  font-size: 1rem;
+}
+main #features .big >* {
+  padding: 3% 0%;
+}
+
+main #features .small {
+  height: 550px;
+  background-color: #3b4d60;
+  padding-top: 2%;
+}
+
+main #features .small >* {
+  padding: 2% 0%;
+  text-align: center;
+}
+main #features .small .stores-location span {
+  margin-left: 5px;
+  display: inline-block;
+}
+main #features .small .stores-location{
+  width: 100%;
+  margin: auto;
+}
+
+main #features .small img{
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+main #features .city {
+  background-image: url(../img/Cities-1500.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 110%
+
+}
+
+main #features .bottom {
+  margin: 2% 0;
+}
+
+main #features .left {
+  padding-right: 2%;
+}
+
+main #features h3 {
+  font-size: 1.5rem;
+}
+/* End of Features */
+
+/* Social Collage */
+main #social{
+  height: 600px;
+  background-image: url(../img/Social-Banner.jpg);
+  background-repeat: no-repeat;
+  margin-bottom: 2%;
+}
+
+main #social .text {
+  height: 200px;
+  color: black;
+  font-size: 1.7rem;
+  background-color: #ffffff;
+  width: 40%;
+  text-align: center;
+}
+
+main #social .text .social-icons{
+  width: 50%;
+  margin: auto;
+}
+
+main #social .wrapper .text h3 {
+  padding-top: 50px;
+}
+
+main #social .text .social-icons i {
+  color: black;
+  display: inline-block;
+  font-size: 30px;
+  padding: 7px 12px;
+}
+
+main #social .wrapper {
+  height: 550px;
+  position: relative;
+}
+main #social .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+/* End of Social Collage */
+/* END OF MAIN SECTION */
+
+/* FOOTER SECTION */
+/* Top Footer */
+footer {
+  color: #ffffff;
+  background-color: black;
+  height: 700px;
+}
+
+footer .footer-wrapper {
+  padding-top: 5%;
+  padding-bottom: 3%;
+}
+footer .footer-wrapper h3{
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-bottom: 5%;
+}
+footer .footer-wrapper .footer-list ul li{
+ padding: 3% 0;
+ color: #808080;
+}
+
+/* End of Top Footer */
+
+/* Bottom Footer */
+
+footer .bottom-footer ul li{
+  font-size: 1.5rem;
+  display: inline-block;
+  padding: 0% 3%;
+}
+
+footer .bottom-footer {
+  padding: 5% 0%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid #808080;
+}
+
+footer .badge {
+  padding-top: 4%;
+  text-align: center;
+}
+/* End of Bottom Footer */
+
+/* END OF FOOTER SECTION */

@@ -236,6 +236,8 @@
   .col-lg-5 {
     width: calc(100% / 12 *5);
   }
+
+
   .col-lg-6 {
     width: 50%;
   }
