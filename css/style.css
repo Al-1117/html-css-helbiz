@@ -15,7 +15,7 @@ body a {
 }
 /* END OF GENERAL RULES */
 
-/* HEADER SECTION*/
+/****************** HEADER SECTION*************************/
 /* Logo */
 header .logo {
   height: 70px;
@@ -92,21 +92,111 @@ header .jumbotron .content h5{
 }
 
 /* End of Jumbotron/ */
-/* END OF HEADER SECTION*/
 
-/* MAIN SECTION */
+/* HEADER MEDIA QUERIES */
+/* Medium Devices */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  header .logo {
+    margin: 0% 3%;
+  }
+  /* End of Logo */
+
+  /* Menu */
+  header .nav {
+    font-size: 0.9rem;
+  }
+
+  header .menu ul{
+    text-align:center;
+  }
+
+  header .nav ul li {
+    padding: 0 1%;
+  }
+
+    /*End of  Menu */
+    /* Jumbotron */
+  header .jumbotron {
+    height: 450px;
+  }
+
+  header .jumbotron .content > * {
+    padding-bottom: 5%;
+  }
+
+  header .jumbotron .content h1{
+    font-size: 1.7em;
+  }
+
+  header .jumbotron .content h5{
+    font-size: 0.8em;
+  }
+
+    /* End of Jumbotron/ */
+
+}
+/* End of Medium Devices */
+
+/* Small Deviecs */
+@media all and (max-width: 768px) {
+  header .logo {
+    margin: 0% 1%;
+  }
+  /* End of Logo */
+
+  /* Menu */
+  header .nav {
+    font-size: 0.8rem;
+  }
+
+  header .menu ul{
+    text-align:center;
+  }
+
+  header .nav ul li {
+    padding: 0 1%;
+  }
+
+    /*End of  Menu */
+    /* Jumbotron */
+  header .jumbotron {
+    height: 450px;
+  }
+
+  header .jumbotron .content > * {
+    padding-bottom: 5%;
+  }
+
+  header .jumbotron .content h1{
+    font-size: 2.5rem;
+  }
+
+  header .jumbotron .content h5{
+    font-size: 1em;
+  }
+
+    /* End of Jumbotron/ */
+
+}
+/* End of Small Deviecs */
+
+/* END OF HEADER MEDIA QUERIES */
+
+/******************* END OF HEADER SECTION***************/
+
+/******************** MAIN SECTION **********************/
 
 /* Service*/
-main #service .product{
+/* main #service .product{
   background-color: white;
   margin: 5% 0%;
 
-}
+} */
 
 main #service .product > * {
-  padding: 10px 0%;
+  padding: 3% 0%;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 main #service .product img {
@@ -146,7 +236,6 @@ main #how .container{
 main #how .container > * {
 padding-top: 55%;
 }
-
 
 main #how .question h3{
   width: 60%;
@@ -291,7 +380,248 @@ main #social .text {
 
 }
 /* End of Social Collage */
-/* END OF MAIN SECTION */
+
+/* MEDIA QUERIES */
+
+/* Medium Devices */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  /* Service*/
+  main #service .product{
+    margin: 3% 0%;
+  }
+
+  main #service .product > * {
+    padding-top: 0px  ;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+  }
+
+
+  main #service .product span {
+    padding-top: 1%;
+    font-size: 1.1rem;
+  }
+
+  main #service .product h3 {
+    font-size: 2.5rem;
+  }
+
+  /* End of Service */
+
+  /* How*/
+  main #how{
+    height: 500px;
+    background-size: 100% 75%;
+  }
+
+  main #how .container{
+    height: 500px;
+  }
+
+  main #how .container > * {
+  padding-top: 45%;
+  text-align: center;
+  }
+
+  main #how .question h3{
+    width: 60%;
+    font-size: 1.8rem;
+  }
+
+
+  main #how .phone {
+    padding-top: 20%;
+  }
+  main #how .phone img{
+    padding-top: 0%;
+    width: 100%;
+  }
+
+  main #how .step h5{
+    padding-bottom: 2%;
+    font-size: 1.7rem;
+  }
+
+  main #how .step {
+    font-size: 1.5rem;
+    padding-left: 10%;
+  }
+
+  /* End of How */
+
+  /* Features */
+
+
+
+  main #features .smart-mobility {
+    height: 350px;
+    color: #ffffff;
+  }
+
+
+  main #features .big {
+    font-size: 1.5rem;
+    top: 10%;
+    right: 10%;
+  }
+
+  main #features .small {
+    height: 350px;
+    padding-top: 2%;
+  }
+
+  main #features .small img{
+    width: 90%;
+    height: 75%;
+  }
+
+  main #features .bottom {
+    height: auto;
+    margin: 3% 0;
+  }
+
+  /* End of Features */
+
+  /* Social Collage */
+  main #social{
+    height: 450px;
+  }
+
+  main #social .text {
+    height: 150px;
+    font-size: 1.5rem;
+    width: 30%;
+  }
+
+  main #social .text .social-icons{
+    width: 100%;
+    margin: auto;
+  }
+
+  main #social .wrapper .text h3 {
+    padding-top: 40px;
+  }
+
+  main #social .text .social-icons i {
+    font-size: 20px;
+  }
+
+  main #social .wrapper {
+    height: 450px;
+  }
+
+  /* End of Social Collage */
+}
+
+/* End of Medium Devices */
+
+/* Small Devices */
+@media all and (max-width: 767px) {
+  /* Service*/
+
+  main #service .product {
+    margin: 5% 10%;
+  }
+
+  /* End of Service */
+
+  /* How*/
+  main #how{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-size: 100% 60%;
+  }
+
+  main #how .container{
+    height: 500px;
+  }
+
+
+  main #how .question h3{
+    width: 60%;
+    font-size: 1.7rem;
+  }
+
+  main #how .step h5{
+    padding-bottom: 2%;
+    font-size: 1.3rem;
+  }
+
+  main #how .step p {
+    font-size: 1.3rem;}
+
+  /* End of How */
+
+  /* Features */
+
+
+
+  main #features .smart-mobility {
+    height: 350px;
+    color: #ffffff;
+  }
+
+
+  main #features .big {
+    font-size: 1.1rem;
+    top: 5%;
+    right: 10%;
+  }
+
+  main #features .small {
+    height: 350px;
+    padding-top: 2%;
+  }
+
+  main #features .small img{
+    width: 100%;
+    height: 75%;
+  }
+
+  main #features .bottom {
+    height: auto;
+    margin-left: 7%;
+  }
+
+  /* End of Features */
+
+  /* Social Collage */
+  main #social{
+    height: 450px;
+  }
+
+  main #social .text {
+    height: 150px;
+    font-size: 1.5rem;
+    width: 40%;
+  }
+
+  main #social .text .social-icons{
+    width: 100%;
+    margin: auto;
+  }
+
+  main #social .wrapper .text h3 {
+    padding-top: 40px;
+  }
+
+  main #social .text .social-icons i {
+    font-size: 20px;
+  }
+
+  main #social .wrapper {
+    height: 450px;
+  }
+
+  }
+  /* End of Social Collage */
+}
+
+/* End of Small Devices */
+
+/* END OF MEDIA QUERIES */
+/****************** END OF MAIN SECTION ******************/
 
 /* FOOTER SECTION */
 /* Top Footer */
