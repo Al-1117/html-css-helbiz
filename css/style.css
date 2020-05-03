@@ -140,7 +140,8 @@ header .jumbotron .content h5{
 /* Small Deviecs */
 @media all and (max-width: 768px) {
   header .logo {
-    margin: 0% 1%;
+    text-align: center;
+    height: 40px;
   }
   /* End of Logo */
 
@@ -155,6 +156,10 @@ header .jumbotron .content h5{
 
   header .nav ul li {
     padding: 0 1%;
+  }
+
+  header .container .lang ul li a {
+    padding-left: 3px;
   }
 
     /*End of  Menu */
