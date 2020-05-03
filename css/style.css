@@ -614,7 +614,6 @@ main #social .text {
     height: 450px;
   }
 
-  }
   /* End of Social Collage */
 }
 
@@ -623,7 +622,7 @@ main #social .text {
 /* END OF MEDIA QUERIES */
 /****************** END OF MAIN SECTION ******************/
 
-/* FOOTER SECTION */
+/*** *****************FOOTER SECTION ********************/
 /* Top Footer */
 footer {
   color: #ffffff;
@@ -667,4 +666,71 @@ footer .badge {
 }
 /* End of Bottom Footer */
 
-/* END OF FOOTER SECTION */
+/** MEDIA QUERIES */
+/* Medium Devices */
+@media all and (min-width: 768px) and (max-width: 992px) {
+  /* Top Footer */
+  footer {
+    color: #ffffff;
+    background-color: black;
+    height: 700px;
+  }
+
+  footer .logo {
+    height: 300px;
+    margin: auto;
+
+  }
+
+  /* End of Top Footer */
+  /* Bottom Footer */
+
+  footer .bottom-footer ul li{
+    font-size: 1.3rem;
+
+  }
+  /* End of Bottom Footer */
+}
+/* End of Meium Devices */
+
+/* Small Devices */
+@media all and (max-width: 768px){
+  /* Top Footer */
+
+  footer {
+    min-height: 1350px;
+    color: #ffffff;
+    background-color: black;
+    text-align: center;
+  }
+
+  footer .logo {
+    padding-bottom: 3%;
+  }
+
+  footer  .footer-wrapper h3 {
+    padding-top: 4%;
+    padding-bottom: 0%;
+  }
+  /* End of Top Footer */
+
+  /* Bottom Footer */
+
+  footer .bottom-footer ul li{
+    font-size: 1.3rem;
+  }
+
+  footer .bottom-footer {
+    line-height: 3rem;
+    height: 150px;
+  }
+
+  footer .badge{
+    padding-bottom: 3%;
+  }
+  /* End of Bottom Footer */
+}
+/* End of Small Devices */
+/* END OF MEDIA QUERIES */
+
+/****************** END OF FOOTER SECTION ****************/
