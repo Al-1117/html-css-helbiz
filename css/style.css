@@ -34,6 +34,21 @@ header .logo {
   display: inline-block;
 }
 
+header .fa-bars {
+  line-height: 70px;
+  font-size: 2rem;
+}
+
+header .top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 5;
+}
+
 header .menu ul{
   text-align:right;
 }
@@ -113,6 +128,7 @@ header .jumbotron .content h5{
   header .nav ul li {
     padding: 0 1%;
   }
+
 
     /*End of  Menu */
     /* Jumbotron */

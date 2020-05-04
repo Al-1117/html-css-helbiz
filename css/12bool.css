@@ -125,8 +125,13 @@
     margin-left: 100%;
   }
 
-
+  /* Display none */
+  .display-none-xs {
+    display: none
+  }
 }
+
+
 /* End of Small Devices Media Queries */
 
 
@@ -213,6 +218,11 @@
     margin-left: 100%;
   }
 
+  /* Display none */
+  .display-none-md {
+    display: none
+  }
+
 
 }
 
@@ -297,6 +307,11 @@
   }
   .offset-lg-12 {
     margin-left: 100%;
+  }
+
+  /* Display none */
+  .display-none-lg {
+    display: none
   }
 
 
